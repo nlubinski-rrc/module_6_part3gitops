@@ -19,8 +19,8 @@ spec:
         - name: ghcr-creds
       containers:
         - name: backend
-          image: ghcr.io/nlubinski-rrc/module_6_part3-backend:14d24aedb85a352626c628d5e38fd6b6a98992bd
-          imagePullPolicy: IfNotPresent
+          image: ghcr.io/nlubinski-rrc/module_6_part3-backend:323bd92a92d5a9ed152694dbd669c5e1be776f79
+          imagePullPolicy: Always
           ports:
             - name: http
               containerPort: 5000
@@ -59,3 +59,4 @@ metadata:
 type: Opaque
 stringData:
   secret-key: "supersecretkey"
+
